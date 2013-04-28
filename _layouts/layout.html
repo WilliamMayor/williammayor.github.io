@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content="William Mayor" />
+        <script src="/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <link href='/style.css' rel='stylesheet' type='text/css' /> 
+        <title>www.williammayor.co.uk | {{ page.title }}</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="nav">
+                <form id="search">
+                    <input type="text" placeholder="Search" />
+                </form>
+                <h1>William</h1>
+                <h2>Mayor</h2>
+                <a href="/">Home</a>
+                <a href="/research">Research</a>
+                <a href="/projects">Projects</a>
+                <hr />
+                <a href="http://www0.cs.ucl.ac.uk/people/W.Mayor.html" target="_blank">UCL - CS</a>
+                <a href="http://www.ucl.ac.uk/secret/current_students/2011_cohort/2011-cohort-profiles/mayor_profile" target="_blank">UCL - SECReT</a>
+                <a href="https://github.com/WilliamMayor" target="_blank">GitHub</a>
+            </div>
+            <div id="content">
+                {{ content }}
+            </div>  
+        </div>
+    </body>
+</html>

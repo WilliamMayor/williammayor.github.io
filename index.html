@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>williammayor.co.uk</title>
-    </head>
-    <body>
-        <h1>It Works!</h1>
-    </body>
-</html>
+---
+layout: layout
+title: Home
+---
+<h1 class="title">Home</h1>
+<p class="intro">
+    Welcome to williammayor.co.uk. I'm William Mayor, a PhD student at University College London. I'm a computer scientist and a crime and security science researcher. Currently I'm working on unstructured peer-to-peer networks, looking at how they could be applied to provide digital archive solutions that are robust and resilient.
+</p>
+<h2>Recent Entries</h2>
+<ul>
+{% for post in site.posts limit:5 %}
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

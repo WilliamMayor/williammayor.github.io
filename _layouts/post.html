@@ -6,7 +6,9 @@ layout: layout
 {{ content }}
 
 <div class="other_posts">
-    Enjoy reading that? Try some other things I've written:
+    {% if page.previous || page.next || site.related_posts %}
+    <p>Enjoy reading that? Try some other things I've written:</p>
+    {% endif %}
     {% if page.previous %}
     <a href="{{ page.previous.url }}" class="previous">&lt;&lt; previous</a>
     {% endif %}

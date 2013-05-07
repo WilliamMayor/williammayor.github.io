@@ -1,7 +1,8 @@
-----------
+---
 layout: post
 title: Web Archiving - The Non-Academic Literature Review
-----------
+tags: [research, archive]
+---
 
 Here's a giant summary of the non-academic (mostly commercial) resources I could find on web archive. I didn't realise the commercial market for web archiving software before this. It seems that it's quite large. Also, Brewster Khale is everywhere!
 

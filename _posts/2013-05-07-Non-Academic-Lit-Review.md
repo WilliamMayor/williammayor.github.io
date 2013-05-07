@@ -163,6 +163,28 @@ Seems mostly aimed at offline browsing. I think you point it at a website and it
 
 Unix command that can be told to recursively download web assets that are linked from a previously downloaded asset.
 
+##[robots.txt](http://en.wikipedia.org/wiki/Robots_exclusion_protocol)
+
+Summary of how the robots.txt exclusion protocol works. Basically, /robots.txt advises a crawler which pages/directories not to crawl.
+
+##[Distributed Web Crawling](http://en.wikipedia.org/wiki/Distributed_web_crawling)
+
+References some papers on how to distribute web crawling tasks around a cluster. Dynamic assignment means that URL are allocated to nodes as they arrive and so a central server can load balance the tasks. Static assignment sets out rules at the beginning that specify how URL are assigned to nodes, using hashing or similar.
+
+There is an uncited quote from Nutch, that says that for distributed web crawlers "A successful search engine requires more bandwidth to upload query result pages than its crawler needs to download pages...". So it seems that the gains are small.
+
+##[Sitemaps](http://en.wikipedia.org/wiki/Sitemaps)
+
+The opposite of a robots.txt file. A sitemap tells a crawler where content is. This is good for allowing bots access to what otherwise would part of the deep web.
+
+#[common crawl](http://commoncrawl.org/)
+
+They provide an open repository of web crawl data. You can search for URLs that have been indexed by their crawler. The entire thing is open, the crawler code is open source and the data is open to download. It's very fast, nearly Google fast.
+
+#[nutch](http://nutch.apache.org/)
+
+Open Source Web Search Engine. Includes a fetcher (crawler) and a MapReduce system (now called Hadoop) for indexing. It is very scalable.
+
 #[Aleph Archives](http://aleph-archives.com/)
 
 Subscription web archive. Sign up (and pay) and have your site archived, guaranteed. They've produced a white paper.
@@ -390,3 +412,34 @@ Restricting archiving to only those sites from a particular country is harder th
 
 An application of nutch (Apache open source web-search software) for searching arc files instead of live web pages. Nothing about WARC but I assume they're compatible.
 
+#[iterasi](http://www.iterasi.com/)
+
+Another "we'll archive it for you" service for regulations and compliance. They're very confident that they're the best. Their features include the ability to archive "even the most complex pages and sites". They have a whitepaper.
+
+#[cloudpreservation](http://www.cloudpreservation.nextpoint.com/#&panel1-2)
+
+Archive subscription service. They seem to offer a service where a team of technicians will "SmartCrawl" your site for you to get set up.
+
+#[patrina](http://www.patrina.com/)
+
+Archive subscription service. Many more features than other services. Data transformation among them.
+
+#[peeep.us](http://www.peeep.us/)
+
+On-demand archive, like archive.is. They have a bookmarklet that allows you to archive personalised webpages. The bookmarklet makes a second request for the current page and uploads the response. This has limitations because if any of the linked files also require personalisation then they will not be loaded properly.
+
+#[smarsh](http://www.smarsh.com/web-archiving)
+
+Archive subscription site. They can do archiving of personalised webpages, even for database-driven sites. I assume this takes traffic logs and re-creates the requests. THey have several white papers.
+
+#[WebCite](http://www.webcitation.org/)
+
+On-demand archive service. Aimed at academica wanting to preserve a webpage when citing it. They stop accepting new submission at the end fo 2013 unless they raise enough money to continue.
+
+#[SiteReplay](http://www.website-archive.com/)
+
+Subscription archive service. Doesn't mention social media.
+
+#[xinq](http://web.archive.org/web/20110227202744/http://www.nla.gov.au/xinq/)
+
+Creates a web application using an XML database back end. This pairs nicely with Deep Arc.

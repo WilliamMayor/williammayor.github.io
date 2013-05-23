@@ -177,6 +177,84 @@ There is an uncited quote from Nutch, that says that for distributed web crawler
 
 The opposite of a robots.txt file. A sitemap tells a crawler where content is. This is good for allowing bots access to what otherwise would part of the deep web.
 
+##[Digital Preservation](http://en.wikipedia.org/wiki/Digital_preservation)
+
+Digital Preservation is the actions undertaken to ensure continued access to digital material for as long as necessary. Its goal is the accurate rendering of authenticated content over time.
+
+### Challenges
+
+Digital information always need a software environment to render it. Physical storage media, data formats, hardware and software all become obsolete. This is the threat of digital obsolescence.
+
+Digital content can be complex and dynamic, much more so than physical content.
+
+There is a lot of digital content, a 'data deluge', storing this amount of data can be hard.
+
+Digital preservation can be costly and require significant up front costs. Unfortunately, the benefits of the archive are more keenly felt by future generations.
+
+### Intellectual Foundations
+
+In 1994 a task force formed by the Research Libraries Group and the Commission on Preservation and Access released a report on what needed to be done to ensure long-term preservation and continued access to digital records. They created the idea of using trusted digital repositories, they identified five features of digital information integrity (content, fixity, reference, provenance, and context), and set migration as a crucial function of digital archives.
+
+OAIS is the Reference Model for an Open Archival Information System. It describes a digital object's life-cycle;  ingest, archival storage, data management, administration, access and preservation planning. It also deals with metatdata.
+
+International Research on Permanent Authentic Records in Electronic Systems (InterPARES) is a decades long project looking at the preservation of digital material.
+
+### Strategies
+
+What strategies can be used for digital preservation? There's a four point plan:
+
+1. Assess the risk of data loss. Perhaps because of file format or required software
+2. Evaluate the digital content, determine which preservations actions are required. e.g format conversion
+3. Determine the metadata required
+4. Provide access to the content
+
+There are also these ideas:
+
+#### Refreshing
+
+Move data between storage mediums so no data is lost due to physical storage degradation. Also, perhaps refresh the file format.
+
+#### Migration
+
+Move the data to newer system environments. e.g. update OS or file format. This means access is always possible.
+
+#### Replication
+
+Create duplicate copies to guard against losing copies.
+
+#### Emulation
+
+Recreate the obsolete system environment required to access data.
+
+#### Encapsulation
+
+Digital objects are self-describing. All the information required to understand the object is contained within the object itself.
+
+#### Persistent Archives Concept
+
+This "the preservation of the organisation of collection as well as the objects that make up that collection, maintained in a platform independent form". Something about storing the data as well as the context.
+
+#### Metadata Attachment
+
+Have separate metadata in a highly compatible format.
+
+### Digital Sustainability
+
+This seems to encompass the activities and involvement surrounding a digital archive, but not necessarily the technology or data behind the archive itself.
+
+### Certification
+
+There are a number of standards, criteria, and tools that can be used to assess digital preservation attempts:
+
+- Trustworthy Repositories Audit & Certification: Criteria & Checklist (TRAC)
+- Digital Repository Audit Method Based On Risk Assessment (DRAMBORA)
+- European Framework for Audit and Certification of Digital Repositories
+- nestor Catalogue of Criteria
+- Planning Tool for Trusted Electronic Repositories (PLATTER)
+- Audit and Certification of Trustworthy Digital Repositories (ISO 16363)
+
+
+
 #[common crawl](http://commoncrawl.org/)
 
 They provide an open repository of web crawl data. You can search for URLs that have been indexed by their crawler. The entire thing is open, the crawler code is open source and the data is open to download. It's very fast, nearly Google fast.
@@ -443,3 +521,51 @@ Subscription archive service. Doesn't mention social media.
 #[xinq](http://web.archive.org/web/20110227202744/http://www.nla.gov.au/xinq/)
 
 Creates a web application using an XML database back end. This pairs nicely with Deep Arc.
+
+#[Living Web Archives (LiWA)](http://www.liwa-project.eu/)
+
+Developing the next generation web archive technologies. LiWA looks 'beyond' simple freezing of sites and aims to create a living archive. Living, in this sense, means i) long term interpretability, ii) improved archive fidelity and less spam, and iii) considering a wide variety of content.
+
+They haven't released a newsletter since, 2011. Did they run out of FP7 funding? They have published lots of papers.
+
+## [Archive Fidelity](http://liwa-project.eu/index.php/thema/C5)
+
+Complete and faithful capture of web content. Find all links to resources, find deep web content, and handle streaming media.
+
+## [Spam Cleansing](http://liwa-project.eu/index.php/thema/C4)
+
+In particular, look at 'fake' web content that is designed to cheat search engines (they say an estimated 20% of the web is like this).
+
+Also mention detecting real changes to content over surface changes (like a timestamp).
+
+## [Temporal Coherence](http://liwa-project.eu/index.php/thema/C6)
+
+Make sure the archive is fully aware of time. Crawls must correctly add temporal metadata, multiple crawls and archives must be reconciled with respect to time, and optimisations can be applied for time-aware crawling.
+
+## [Semantic Evolution](http://liwa-project.eu/index.php/thema/C7)
+
+The words that we use change over time, for instance, if you wanted to search an archive for the history of the iPod you would also want to look at the history of the Walkman. If you didn't know about the Walkman you would miss this part of the history. In the web, terminology evolves rapidly so it is very important for web archives to be able to understand how.
+
+## [Rich Media Archiving](http://liwa-project.eu/index.php/thema/C9/)
+
+How can you archive non-textual data? Streaming media etc. etc.
+
+## [Social Web Archiving](http://liwa-project.eu/index.php/thema/C8/)
+
+Current web archive technologies don't archive the social web that well. How can this be changed? This seems to be the least researched area of LiWA, there are no papers that directly reference this (that I can see).
+
+# [Longitudinal Analytics of Web Archive Data](http://www.lawa-project.eu/)
+
+They hope to build a web-based data analytics solution that is focussed on analytics of web data crawled over a long period of time. They want to extend Hadoop to allow for wide-area data access, distributed storage and indexing, scalable data aggregation and data analysis along the time dimension, and automatic classification of Web contents.
+
+They've published lots of papers and released some open source extensions to Hadoop. THeir RADAR system performs 'named entity disambiguation' over web archives. RADAR maps named entities (people, locations, etc.) to entities in a knowledge base. Project ends August 2013.
+
+## [Virtual Web Observatory Demo](http://vwo.lawa-project.eu/)
+
+You can demo each of the analytic components they've built. Things like spam detection, database statistics. Some work, some don't.
+
+Their Wimmut Suite gives you a visual guide to entities and their relationships to other entities. There's a static wikipedia Wimmut but it wouldn't work because their server is down.
+
+There's a RADAR demo that should disambiguate text but I couldn't get it to work either.
+
+

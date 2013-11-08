@@ -1,7 +1,0 @@
-safe: true
-auto: true
-server: true
-markdown: rdiscount
-permalink: /:year/:month/:day/:title
-rdiscount:
-    extensions: [smart]

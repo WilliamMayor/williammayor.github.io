@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developing on an iPad, Part 1
+title: Developing on an iPad, Part 1 - Hardware and Services
 tags: [developing_ipad]
 ---
 # Developing on an iPad

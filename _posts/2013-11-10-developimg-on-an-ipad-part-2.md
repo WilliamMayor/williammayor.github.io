@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Developing on an iPad, Part 2 - mox
+title: Developing on an iPad
 tags: [developing_ipad]
 ---
-# Developing on an iPad, Part 2
+# Part 2 - mox
 
 In [part one](URL) I said I'd cover software in part two, I'm postponing that for part three. Instead I'm going to talk about [mox](http://mox.williammayor.co.uk), the Dropbox monitor script I've written. Briefly, mox looks for files that describe commands and when it finds one, it runs that command. The name of the file identifies the command to be run and the contents of the provide the information required to run it. For example the file `mox_commit` containing the words "this is a commit message", tells mox to commit the local Dropbox files to git, using the provided commit message.
 

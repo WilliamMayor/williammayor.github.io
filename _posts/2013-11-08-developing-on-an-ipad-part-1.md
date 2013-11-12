@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Developing on an iPad, Part 1 - Hardware and Services
+title: Developing on an iPad
 tags: [developing_ipad]
 ---
-# Developing on an iPad
+# Part 1 - Hardware and Services
 
 Welcome to the first part of what might end up being a very long series of posts on how I develop software (and blog) on my iPad. I'm hoping that it will be a good guide for anybody new to this game and also a good reminder for me when I forget what decisions I made and why I made them. 
 

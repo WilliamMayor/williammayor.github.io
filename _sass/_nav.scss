@@ -1,0 +1,46 @@
+nav {
+    background-color: #353535;
+    padding: 10px 0;
+    div {
+        width: 800px;
+        margin: auto;
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: #BB4D3E;
+            }
+        }
+
+        h1 {
+            margin: 0 5px;
+            display: inline;
+            color: #DDD;
+            @include fontsize();
+            font-weight: 300;
+        }
+
+        ul {
+            display: inline;
+            list-style: none;
+            margin-left: 290px;
+            padding: 0;
+
+            li {
+                display: inline;
+                margin-left: 20px;
+                a {
+                    display: inline-block;
+                    width: 110px;
+                    text-align: right;
+
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

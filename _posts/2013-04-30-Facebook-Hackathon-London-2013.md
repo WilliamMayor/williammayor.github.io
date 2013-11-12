@@ -3,7 +3,7 @@ layout: post
 title: Facebook Hackathon London 2013
 tags: [facebook, programming]
 ---
-This this weekend (2013/4/28-2013/4/29) I attended the London Facebook Hackathon. 24 hours of hacking together Facebook apps and eating copious amounts of unhealthy food. Awesome.
+This weekend (2013/4/28-2013/4/29) I attended the London Facebook Hackathon. 24 hours of hacking together Facebook apps and eating copious amounts of unhealthy food. Awesome.
 
 What did I hack? I had a last minute idea for a cool Facebook App and managed to convince two other people to join me in building it. The idea was to replicate projects such as [SETI at Home](http://setiathome.berkeley.edu/), and [Folding@Home](http://folding.stanford.edu/) but via Facebook. The general idea is that sometimes researchers have a complicated task that they break down into smaller tasks. These small tasks are distributed around lots and lots of computers. Each computer then performs the tiny task and sends the results back to the central server. Each tiny task is relatively easy to complete but add them all together and you have a solution to a really complicated problem. This idea has been used to understand weather patterns, search the heavens for life and a whole bunch of other exciting projects.
 
@@ -14,24 +14,3 @@ The results can be found here: [CrowdTaskingJS](https://apps.facebook.com/crowdt
 We didn't manage to get task submission up and running (we only had 24 hours) and some of the tasks stats are a bit lacking. Still, I'm proud of what we accomplished in such a small amount of time. We won 5th place (out of lots and lots of teams) so other people must have thought we did pretty well too.
 
 I like Hackathons, not much beats the rush of finding and eradicating an annoying bug at 4am. I think that the team I was on was at a disadvantage because we only met on the day. We didn't share many common skills or tool chains and so it was hard to work together. One person knew Node.js inside and out and the rest of us had to learn pretty quickly. If we'd all come together with common knowledge we would have found the task a lot easier. It was a lot of fun though, I would definitely do it again.
-
-
-    body {
-        font-family: 'SourceSansProLight', Tahoma, sans-serif;
-    }
-    a {
-        text-decoration: none;
-        color: @link-color;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-    code {
-        font-family: 'Ubuntu Mono', monospace;
-    }
-    pre {
-        width: 580px;
-        margin-left: 10px;
-        border: 1px solid @border-color;
-        overflow-x: auto;
-    }

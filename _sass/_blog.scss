@@ -1,0 +1,10 @@
+.blog.index {
+    .content {
+        ul {
+            list-style-type: none;
+            li, li p {
+                margin: 0;
+            }
+        }
+    }
+}

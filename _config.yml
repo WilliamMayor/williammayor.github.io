@@ -1,0 +1,15 @@
+highlighter: pygments
+timezone: Europe/London
+exclude: [Vagrantfile, README.md]
+
+# Site settings
+title: William Mayor's Blog
+email: mail@williammayor.co.uk
+description: William Mayor's personal blog.
+url: "http://www.williammayor.co.uk"
+twitter_username: WilliamMayor
+github_username:  WilliamMayor
+
+# Build settings
+markdown: kramdown
+permalink: pretty

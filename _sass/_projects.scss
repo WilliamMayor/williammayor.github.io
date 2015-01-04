@@ -1,0 +1,15 @@
+.projects.index {
+    .content {
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            ul {
+                margin-top: -15px;
+                margin-left: 40px;
+                li, li p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

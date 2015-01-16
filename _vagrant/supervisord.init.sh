@@ -35,7 +35,7 @@ DESC=supervisor
 
 test -x $DAEMON || exit 0
 
-LOGDIR=/vagrant/_logs/supervisord.init
+LOGDIR=/vagrant/_logs/
 PIDFILE=/tmp/supervisord.pid
 DODTIME=5                   # Time to wait for the server to die, in seconds
                             # If this value is set too low you might not

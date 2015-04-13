@@ -13,3 +13,7 @@ github_username:  WilliamMayor
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Serve setting
+port: 80
+host: 0.0.0.0

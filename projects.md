@@ -11,26 +11,37 @@ Below are the projects I'm working on and links to any blog posts about them. Wh
 ## January
 January's project is to finalise those few 2014 projects that are near MVP status.
 
-- [**grindstone**](https://github.com/WilliamMayor/grindstone).
-  A very personal project that tracks the time I spend working for various companies. It calculates how much money I've earned and compares it to a list of earning goals. I use this to track how well I'm managing to save money.
-  {% for post in site.categories.grindstone %}
-    - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
-  {% endfor %}
-- [**distorteddecade.com**](http://distorteddecade.com/)
-  A simple website I'm building for a friend's band.
-  {% for post in site.categories.distorteddecade %}
-    - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
-  {% endfor %}
-- [**scytale.xyz**](http://scytale.xyz)
-  A website and educational course I'm creating that introduces encryption and communication security topics to ~16 year olds.
-  {% for post in site.categories.scytale %}
-    - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
-  {% endfor %}
-- [**wowchi.xyz**](http://wowchi.xyz)
-  A website that lets you search World of Warcraft achievements and build a queue of achievements to attempt.
-  {% for post in site.categories.wowchi %}
-    - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
-  {% endfor %}
+### [grindstone](https://github.com/WilliamMayor/grindstone)
+
+A very personal project that tracks the time I spend working for various companies. It calculates how much money I've earned and compares it to a list of earning goals. I use this to track how well I'm managing to save money.
+
+{% for post in site.categories.grindstone %}
+  - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+### [distorteddecade.com](http://distorteddecade.com/)
+
+A simple website I'm building for a friend's band.
+
+{% for post in site.categories.distorteddecade %}
+  - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+### [scytale.xyz](http://scytale.xyz)
+
+A website and educational course I'm creating that introduces encryption and communication security topics to ~16 year olds.
+
+{% for post in site.categories.scytale %}
+  - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+### [wowchi.xyz](http://wowchi.xyz)
+
+A website that lets you search World of Warcraft achievements and build a queue of achievements to attempt.
+
+{% for post in site.categories.wowchi %}
+  - {{ post.date | date: "%b %-d, %Y" }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ## February
 February's project is to build a couple of website and services for my family. First up is a website that my fiancee and I will use to provide details of our upcoming wedding. Then I want to build an email/address book/calendar/family tree service for my family to use.

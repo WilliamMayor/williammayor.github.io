@@ -2,7 +2,7 @@
 layout: default
 ---
 <header class="page">
-    <ul>
+    <nav><ul>
         <li><a href="/blog/">Blog</a></li>
         {% if page.previous %}
         <li class="other">Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
@@ -13,9 +13,9 @@ layout: default
         {% if page.next %}
         <li class="other">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></li>
         {% endif %}
-        <li><h1>{{ page.title }}</h1></li>
-    </ul>
+    </ul></nav>
+    <h1>{{ page.title }}</h1>
+    <div class="date">{{ page.date | date_to_string }}</div>
+    <div class="greeting">Dear Internet,</div>
 </header>
-<div class="date">{{ page.date | date_to_string }}</div>
-<div class="greeting">Dear Internet,</div>
 <div class="content">{{ content }}</div>

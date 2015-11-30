@@ -1,6 +1,6 @@
 highlighter: pygments
 timezone: Europe/London
-exclude: [Vagrantfile, README.md]
+exclude: [README.md]
 
 # Site settings
 title: William Mayor's Blog

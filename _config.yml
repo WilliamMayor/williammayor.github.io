@@ -12,7 +12,7 @@ github_username:  WilliamMayor
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 
 # Serve setting
 host: 0.0.0.0

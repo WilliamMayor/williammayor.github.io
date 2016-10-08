@@ -2,7 +2,7 @@
 layout: page
 title: The Projects I'm Pursuing
 date: 2015-11-30
-categories: projects index
+type: projects index
 ---
 Here's a list of the things I'm working on in my spare time. Where there's more to talk about I've written things up in blog posts. Enjoy!
 

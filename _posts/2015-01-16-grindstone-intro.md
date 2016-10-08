@@ -2,7 +2,7 @@
 layout: post
 title:  "Grindstone - The Introduction"
 date:   2015-01-16
-categories: grindstone
+tags: project
 ---
 So this is the first of my blog posts on my projects; [grindstone](https://github.com/WilliamMayor/grindstone) - the introduction.
 

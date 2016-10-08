@@ -2,7 +2,7 @@
 layout: post
 title:  "Catch-Up and New Plans"
 date:   2015-11-23
-categories: meta
+tags: meta
 ---
 Last week I delivered a course on Software Engineering to a group of 25 17-18 year-olds. The course was a week long and over the week the students were asked to create their own blog and to write up blog posts on what they were learning. You can read a little more about it in my [previous post](/2015/11/23/cs_and_se_at_vp/).
 

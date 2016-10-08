@@ -2,7 +2,7 @@
 layout: post
 title:  "Isolated Environments with Vagrant"
 date:   2015-02-20
-categories: learning
+tags: learning
 ---
 The best tools that you come across as a software engineer are the ones that eradicate problems you're struggling with and solve problems you didn't even know you had. The tools that I love using are the ones that cured headaches easily, and instantly.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "CS and SE at VP"
 date:   2015-11-23
-categories: teaching
+tags: teaching
 ---
 OK... so I've been a bit lax about writing on this blog. That's a bit hypocritical given that I'm currently delivering a course that centres around how great it is for developers to write blogs.
 

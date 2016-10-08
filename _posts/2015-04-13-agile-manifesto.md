@@ -2,7 +2,7 @@
 layout: post
 title:  "My Reading of the Agile Manifesto"
 date:   2015-04-13
-categories: learning
+tags: learning
 ---
 I have been advised to read the agile manifesto. I want to get into agile programming as a day-to-day thing. So far in my career I've worked largely alone (always as the sole developer anyway) and agile methodologies that I've half-learned seem a poor fit. I'm going to read the manifesto now (before your very eyes) and comment on what I read. I'm looking for things that strike me as being good ideas, things that solve problems I've encountered in the past, and things that I can actually use in my work.
 

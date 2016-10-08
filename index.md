@@ -2,6 +2,7 @@
 layout: page
 title: Welcome to my Website
 date: 04 Jan 2015
+type: home index
 ---
 Welcome to my website, I'm William Mayor, I'm a software engineer currently working for [BAFTA Research](https://www.bafta.org/initiatives/commercial/research) and [Diversity and Ability](https://www.dnamatters.co.uk). I'm primarily a Python developer and the majority of my work has been in web programming. I'm self-employed and based in London, UK.
 

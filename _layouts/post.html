@@ -1,17 +1,18 @@
 ---
 layout: default
+type: post
 ---
 <header class="page">
     <nav><ul>
         <li><a href="/blog/">Blog</a></li>
-        {% if page.previous %}
-        <li class="other">Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
-        {% endif %}
         {% if site.posts[0].id != page.id and site.posts[0].id != page.previous.id and site.posts[0].id != page.next.id %}
-        <li class="other">Latest: <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></li>
+        <li class="other"><span>Latest Post:</span> <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></li>
+        {% endif %}
+        {% if page.previous %}
+        <li class="other"><span>Previous Post:</span> <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
         {% endif %}
         {% if page.next %}
-        <li class="other">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></li>
+        <li class="other"><span>Next Post:</span> <a href="{{ page.next.url }}">{{ page.next.title }}</a></li>
         {% endif %}
     </ul></nav>
     <h1>{{ page.title }}</h1>

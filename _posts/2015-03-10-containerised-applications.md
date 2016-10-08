@@ -4,6 +4,7 @@ title:  "Containerised Applications with Docker"
 date:   2015-03-10
 categories: learning
 ---
+
 This follow on slightly from my post about Vagrant. Vagrant provides you with a development environment isolated from everything else on your machine. It lets you manage separate dependencies for different projects with ease. After I started using Vagrant for a while I found that were some things that didn't quite gel for me. One particular niggling issue was that I wanted to easily spin up and destroy databases for developing, and testing. It seemed lie it should be possible to type a single command and be given a brand new, completely isolated, database to play with. Then destroy that database without worrying about the others. Vagrant didn't quite manage this.
 
 This is where Docker comes in. Docker lets you 'containerise' applications. A container is an extremely light-weight isolated environment. It's not quite a virtual machine because it runs on the same platform as the host machine. It's closer to a sandbox where nothing can leak out unless you explicitly tell it to.

@@ -7,6 +7,7 @@ categories: projects index
 Here's a list of the things I'm working on in my spare time. Where there's more to talk about I've written things up in blog posts. Enjoy!
 
 ## Teaching
+
 I picked up an interest in teaching programming and related things whilst at uni. Programming (even as a hobby) is such a fun thing to do that I really enjoy sharing it with others. I came across programming quite late, I wasn't introduced to it seriously until my first year at uni. I think I missed out on some fantastic coding time because of this. I could have spent my long summers in front of a computer screen instead of wasting them outside with friends!
 
 I currently do all of my teaching with [Villiers Park](http://www.villierspark.org.uk/). They're an educational trust who help students get into university by running courses that (hopefully) challenge and inspire them.

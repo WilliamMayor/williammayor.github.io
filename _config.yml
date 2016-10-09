@@ -1,6 +1,6 @@
 highlighter: rouge
 timezone: Europe/London
-exclude: [README.md]
+exclude: [README.md, CNAME]
 
 # Site settings
 title: William Mayor's Blog

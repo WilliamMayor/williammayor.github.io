@@ -2,9 +2,9 @@
 layout: post
 title:  "Grindstone - The Introduction"
 date:   2015-01-16
-tags: project
+tags: story how-does
 ---
-So this is the first of my blog posts on my projects; [grindstone](https://github.com/WilliamMayor/grindstone) - the introduction.
+So this is the first of my blog posts on my projects; grindstone - the introduction.
 
 Grindstone is a small Python/Flask web application that downloads calendar data to calculate the amount of time the user has been working on a particular project or for a particular company. It then compares this to a list of earning goals to tell the user whether or not they've worked enough hours to meet their goals.
 

@@ -2,8 +2,9 @@
 layout: post
 title:  "Isolated Environments with Vagrant"
 date:   2015-02-20
-tags: learning
+tags: story
 ---
+
 The best tools that you come across as a software engineer are the ones that eradicate problems you're struggling with and solve problems you didn't even know you had. The tools that I love using are the ones that cured headaches easily, and instantly.
 
 Python's virtualenv tool is one of those. I remember being so frustrated with Python's confusing packaging and dependency management that when I discovered pip and virtualenv I feel in love. What I loved about it was being able to store a project's dependencies completely separately from every other project. If I wanted to experiment with Python 3 I could do that without messing up anything else. I could install libraries with very little care, if I didn't like what the library did removing it was a simple `rm -rf venv`. Every project became virtualenv based, immediately.

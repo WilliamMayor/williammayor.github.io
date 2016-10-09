@@ -10,13 +10,29 @@ header {
         margin: 0;
     }
 
-    &.site {
+    &.contact {
         text-align: right;
     }
-    &.page {
+    &.navigation {
         padding-top: 0;
         nav {
             margin-bottom: $spacing-unit;
         }
     }
+    &.page {
+        padding-top: 0;
+        .greeting {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.content {
+    padding: 0 $spacing-unit;
+    max-width: $max-width;
+}
+
+footer {
+    padding: $spacing-unit;
+    max-width: $max-width;
 }

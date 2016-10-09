@@ -8,12 +8,12 @@
         <title>{% if page.title %}WilliamMayor | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines |    truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     
-        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+        <link rel="stylesheet" href="{{ "/main.css" }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url }}" />
     </head>
     <body class="{{ layout.type }} {{ page.type }} {{ page.tags | join: ' ' }}">
-        <header class="site">
+        <header class="contact">
             <ul>
                 <li><a href="/">{{ site.title }}</a></li>
                 <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -22,6 +22,13 @@
                     <a href="/feed.xml"><i class="fa fa-fw fa-rss"></i></a>
                 </li>
             </ul>
+        </header>
+        <header class="navigation">
+            <nav><ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/projects/">Projects</a></li>
+            </ul></nav>
         </header>
         {{ content }}
         <footer>
